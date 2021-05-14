@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    width:100%;
+    height:990px; /*906*/
+    background-color: #183D5D;
+}
+.bar{
+    width:800px;
+    margin: 0 auto;
+    height:45px;
+    font-size: 19px;
+    padding-left: 30px;
+    font-family: 'Inter', sans-serif;
+}
+#shop{
+    margin-top: 50px;
+    color:white;
+}
+#shop>.row>#category>.card{
+    width:240px;
+    border-radius: 20px;
+    background-color: #072540;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    margin:0 auto;
+}
+#shop>.row>#category>.card>.card-header{
+    border-bottom: 1px solid #C4C4C4;
+}
+#shop>.row>#category>.card>.card-body>.nav-link>.nav-item{
+    color:white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+}
+#shop>.row>#category>.card>.card-body>.nav-link:hover{
+    color:#C4C4C4;
+    background-color: #0069d9;
+    border-radius: 40px;
+}
+#foods>.container{
+    height:600px;
+}
+#shop>.row>#foods>.container>.row>.col-xxl-3>.card{
+    background-color: #183D5D;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+}
+#shop>.row>#foods>.container>.row>.col-xxl-3>.card>.card-img-top{
+    width: 100%;
+    height:150px;
+    border-radius:20px 20px 0px 0px;
+}
+#shop>.row>#foods>.container>.row>.col-xxl-3>.card>.card-body>.btn{
+    color:white;
+    background-color: #072540;
+    border-radius: 10px;
+}
+#shop>.row>#foods>.container>.row>.col-xxl-3>.card>.card-body>.btn:hover{
+    background-color: white;
+    color:#072540;
+}
+#plus{
+    float:left;
+}
+#eye{
+    float: right;
+}
+#cart{
+    width:340px;
+    margin-left: 10px;
+}
+#cart>.card{
+    background-color: #072540;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+}
+#cart>.card>.table{
+    font-size: 15px;
+}
+#cart>.card>.card-header{
+    font-size: 16px;
+    border-bottom: 1px solid #C4C4C4;
+}
+#cart>.card>table>tfoot{
+    border-top: 1px solid #C4C4C4;
+}
+#cart>.card>div>a{
+    font-size: 16px;
+}
+#footer{
+    width: 100%;
+    height:50px;
+    opacity: 40%;
+    color:white;
+    font-size: 15px;
+    font-family: 'Itim', cursive;
+    text-align: center;
+    margin-top: 130px;
+}
+li.active{
+    background-color: #0069d9;
+}
+.modal{
+    color:black;
+}
+.modal-content{
+    border-radius:22px;
+    padding:0px 10px;
+}
+.modal-title{
+    font-size:19px;
+}
+#qty-box input{
+    width:340px;
+}
+#showModal{
+    cursor:pointer;
+    user-select:none;
+}
+#goCheck{
+    position: fixed;
+    bottom: 7px;
+    right:5px;
+    display:none;
+}
+#gc{
+    background-color: #072540;
+    color:white;
+    font-size: 12px;
+    border-radius: 50px;
+}
+@media only screen and (min-width:1400px){
+    #foods{
+        width:1175px;
+    }
+}
+@media only screen and (max-width:479px){
+    body{
+        width: 100%;
+        height: auto;
+    }
+    .bar{
+        width:280px;
+        height:37px;
+        font-size:16px;
+        padding-left: 25px;
+    }
+    #shop>.row>#cc{
+        display:flex !important;
+        justify-content: center;
+    }
+    #shop .row #cc i{
+        font-size: 22px;
+    }
+    #shop>.row>#category>.card{
+        width:220px;
+        font-size: 18px;
+    }
+    #shop>.row>#category>.card>.card-body>.nav-link>.nav-item{
+        font-size: 16px;
+    }
+    #cart{
+        width:320px;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    #foods>.container{
+        height:640px;
+    }
+    #shop>.row>#foods>.container>.row>.col-12{
+        padding-top: 10px;
+    }
+    #shop>.row>#foods>.container>.row>.col-xxl-3>.card>.card-img-top{
+        height:150px;
+    }
+    #shop>.row>#foods>.container>.row>.col-xxl-3>.card>.card-body>h6{
+        font-size:16px;
+    }
+    #cart>.card>.table{
+        font-size: 15px;
+    }
+    #cart>.card>.card-header{
+        font-size: 15px;
+    }
+    #cart>.card>div>a{
+        font-size: 15px;
+    }
+    #footer{
+        font-size: 14px;
+        margin-top: 50px;
+        padding-top:0px;
+    }
+    .modal-content{
+        padding:0px 5px;
+    }
+    .modal-title{
+        font-size:17px;
+    }
+    .modal-body img{
+        width:315px;
+        height:270px;
+        display: block;
+        margin: 0 auto;
+    }
+    #qty-box input{
+        width:220px;
+    }
+    #goCheck{
+        display: block;
+    }
+}
+@media only screen and (min-width:480px) and (max-width:1399px){
+    body{
+        height:860px;
+    }
+    .bar{
+        width:700px;
+        height:42px;
+        font-size: 17px;
+        padding-left: 28px;
+    }
+    #shop>.row>#category>.card{
+        width:210px;
+        font-size: 18px;
+    }
+    #shop>.row>#category>.card>.card-body>.nav-link>.nav-item{
+        font-size: 15px;
+    }
+    #cart{
+        width:320px;
+        margin-left:10px;
+    }
+    #foods>.container{
+        height:540px;
+    }
+    #shop>.row>#foods>.container>.row>.col-xxl-3>.card>.card-img-top{
+        height:130px;
+    }
+    #shop>.row>#foods>.container>.row>.col-xxl-3>.card>.card-body>h6{
+        font-size: .875em;
+    }
+    #cart>.card>.table{
+        font-size: 14px;
+    }
+    #cart>.card>.card-header{
+        font-size: 15px;
+    }
+    #cart>.card>div>a{
+        font-size: 15px;
+    }
+    #footer{
+        font-size: 14px;
+        margin-top: 50px;
+        padding-top:0px;
+    }
+    .modal-content{
+        padding:0px 10px;
+    }
+    .modal-title{
+        font-size:17px;
+    }
+    .modal-body img{
+        width:444px;
+        height:270px;
+        display: block;
+        margin: 0 auto;
+    }
+}

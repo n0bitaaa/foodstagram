@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    width:100%;
+    height:auto; /*906*/
+    background-color: #183D5D;
+    font-family: 'Inter', sans-serif;
+}
+.top{
+    color:#93C2DB;
+}
+.card{
+    background-color:#072540;
+    color:white;
+    border-radius: 10px;
+}
+#profile-image label {
+    background-color: indigo;
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+#profile-image img{
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:430px;
+    height:400px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+#information-col{
+    color:#93C2DB;
+}
+#information-col label{
+    font-size:19px;
+}
+#information-col .row .col-xl-12{
+    padding:10px 20px;
+}
+hr{
+    color:white;
+    width:80% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px !important;
+}
+textarea{
+    padding:35px 0px 0px 0px !important;
+    text-transform:capitalize;
+}
+#password label{
+    text-align: right !important;
+}
+#password .row .col-xxl-6{
+    padding:10px 20px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+@media only screen and (min-width:480px) and (max-width:1399px){
+    #profile-image img{
+        width:410px;
+        height:380px;
+    }
+}
+@media only screen and (max-width:479px){
+    #profile-image img{
+        width: 280px;
+        height: 260px;
+    }
+    #password label{
+        text-align: center !important;
+    }
+}

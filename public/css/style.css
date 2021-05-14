@@ -1,0 +1,49 @@
+#bar {
+    width:400px;
+}
+#logout_btn {
+    width:140px;
+    margin-top:10px;
+    margin-left:38px;
+    display:block;
+}
+.small-box{
+    border-radius: 0.5rem !important;
+
+}
+.name{
+    /* font-family: 'Balsamiq Sans', cursive; */
+    /* font-family: Orbitron; */
+    font-family: 'Inter', sans-serif;
+} 
+.clock {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    right:0px;
+    top:28px;
+    font-size: 22px;
+    font-family: Orbitron;
+    letter-spacing: 6px;
+    background-color: black;
+    padding:4px;
+}
+.nav-item{
+    padding:0px 7px;
+}
+#order_1{
+    width:60px;
+    background-color:#2BC155;
+    color:white;
+}
+#order_1:hover{
+    background-color: #24A247;
+}
+/* @media only screen and (max-width:767.98px){
+    .main-sidebar{
+        display:inline-block !important; 
+        width: 0% !important;
+        box-shadow:none!important;
+        margin-left:20px !important;
+    }
+} */

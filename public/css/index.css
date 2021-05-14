@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+#first{
+    width:100%;
+    height:984px;
+    background-image: url(../images/g.png);
+    background-attachment: fixed;
+
+}
+#first>.container{
+    padding-top: 170px;
+}
+#first>.container>.row>.col-xl-6{
+    text-align: center;
+    color:white;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+#one{
+    font-size:23px;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.two{
+    font-size: 27px;
+    color:#FF04E6;
+    font-family: 'Milonga', cursive;
+}
+#shop-btn{
+    width:130px;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family:arial;
+}
+#mmlink{
+    display: block;
+    font-size: 27px;
+    margin-top: 130px;
+}
+#mm{
+    color: #2D88FF;
+}
+#links{
+    color:#FF9101;
+}
+#second{
+    width: 100%;
+    height: 984px;
+    background-image: url(../images/B.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#quote{
+    width:700px;
+    height:auto;
+    padding-top:120px;
+    margin: 0 auto;
+    color:white;
+    font-size: 33px;
+    font-family: 'Caveat', cursive;
+}
+#quote>p>span{
+    color:#13F40E;
+}
+#second>.container>.row>.col-xl-6{
+    padding-top: 120px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+#second>.container>.row>.col-xl-6>span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 33px;
+}
+#second>.container>.row>.col-xl-6>a{
+    width:160px;
+    height:53px;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#third{
+    width:100%;
+    height:984px;
+    background-image: url(../images/C.png);
+    background-attachment: fixed;
+}
+#top>img{
+    display: block;
+    margin: 0 auto;
+}
+#top>p{
+    color:white;
+    margin: 0 auto;
+    font-size: 26px;
+    font-family: 'Itim', cursive;
+    text-align: center;
+}
+#top>p>span{
+    color:#FF027C;
+    font-size: 33px;
+    font-family: 'Itim', cursive;
+}
+#third>.container>.row{
+    margin-top: 50px;
+}
+#third>.container>.row>.col-xl-6>#shell{
+    background-color: #072540;
+    margin-top: 15px;
+    border-radius: 20px;
+    color: white;
+    padding:25px;
+    font-family: 'Inter', sans-serif;
+}
+#third>.container>.row>.col-xl-6>#shell>.one{
+    font-size: 18px;
+}
+#third>.container>.row>.col-xl-6>#shell>.twoo{
+    font-size: 23px;
+}
+#third>.container>.row>.col-xl-6>#shell>.three{
+    text-align: left;
+    font-size: 20px;
+}
+#third>.container>.row>.col-xl-6>#shell>img{
+    display: block;
+    margin:0 auto;
+}
+#four{
+    width: 100%;
+    height: 984px;
+    background-image: url(../images/D.png);
+    background-attachment: fixed;
+}
+#four>.container{
+    padding-top: 50px;
+}
+#four>.container>.row>.col-xl-3>.col-12{
+    width: 268px;
+    height:280px;
+    color: white;
+    background-color: #183D5D;
+    padding:20px;
+    border-radius: 40px;
+    text-align: center;
+    font-family: 'Itim', cursive;
+    font-size: 28px;
+}
+#four>.container>.row>.col-xl-3>.col-12>.body{
+    font-size: 22px;
+    color:#C4C4C4;
+}
+#four>.container>.row>.col-xl-3>.col-12>.bodyy{
+    font-size: 20px;
+    color:#C4C4C4;
+}
+.headOne{
+    color:#05FFE1;
+}
+.headTwo{
+    color:#01FB74;
+}
+.headThree{
+    color:#FA00FF;
+}
+.headFour{
+    color:#FFA800;
+}
+#bottom{
+    margin-top: 5px;
+}
+#bottom>.row{
+    height:500px;
+    background-color: #183D5D;
+    color:white;
+    border-radius:40px 40px 0px 0px;
+}
+
+#a{
+    border-right:2px solid #C4C4C4;
+}
+#b{
+    font-size: 28px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding:60px;
+    line-height:2;
+    word-spacing:1px;
+}
+#ctUs{
+    width: 150px;
+    height:50px;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    float:right;
+}
+#footer{
+    width: 100%;
+    height:50px;
+    background-color: #000000;
+    color:#C4C4C4;
+    font-size: 18px;
+    font-family: 'Itim', cursive;
+    text-align: center;
+}
+#goTop{
+    position: fixed;
+    right:10px;
+    bottom: 15px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width:479px){
+    #first{
+        height:770px;
+    }
+    #first>.container{
+        padding-top: 80px;
+    }
+    #first>.container>.row>.col-xl-6>img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:300px;
+        height:300px;
+    }
+    #first>.container>.row>.col-xl-6>i{
+        font-size:24px;
+    }
+    #first>.container>.row>.col-xl-6>#one{
+        font-size: 19px;
+    }
+    #first>.container>.row>.col-xl-6>.two{
+        font-size: 20px;
+    }
+    #first>.container>.row>.col-xl-6>i>#mmlink{
+        font-size: 23px;
+        margin-top: 60px;
+    }
+    #shop-btn{
+        width:110px;
+        height:50px;
+        font-size:17px;
+    }
+    #second{
+        height:1100px;
+    }
+    #quote{
+        width:300px;
+        padding-top:80px;
+        font-size: 24px;
+    }
+    #second>.container>.row>.col-xl-6{
+        padding-top: 80px;
+        font-size: 20px;
+    }
+    #second>.container>.row>.col-xl-6>span{
+        font-size: 21px;
+    }
+    #second>.container>.row>.col-xl-6>img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:350px;
+        height:350px;
+    }
+    #second>.container>.row>.col-xl-6>a{
+        width:120px;
+        height:40px;
+        font-size: 16px;
+    }
+    #top>img{
+        width:375px;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #top>p{
+        font-size: 19px;
+    }
+    #top>p>span{
+        font-size: 22px;
+    }
+    #third{
+        height:1200px;
+    }
+    #third>.container>.row>.col-xl-6>img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 370px;
+        height: 280px;
+    }
+    #third>.container>.row>.col-xl-6>#shell>.one{
+        font-size: 16px;
+    }
+    #third>.container>.row>.col-xl-6>#shell>.twoo{
+        font-size: 20px;
+    }
+    #third>.container>.row>.col-xl-6>#shell>.three{
+        font-size: 18px;
+    }
+    #four{
+        height:2300px;
+    }
+    #four>.container>.row>.col-md-6{
+        padding:20px 0px;
+        display: flex;
+        justify-content: center;
+    }
+    #four>.container>.row>.col-xl-3>.col-12{
+        font-size: 24px;
+    }
+    #four>.container>.row>.col-xl-3>.col-12>.body{
+        font-size: 20px;
+    }
+    #four>.container>.row>.col-xl-3>.col-12>.bodyy{
+        font-size: 18px;
+    }
+    #a{
+        border:none;
+    }
+    #b{
+        font-size: 20px;
+    }
+    #b span{
+        display: inline-block;
+        margin-top: 50px;;
+    }
+    #footer{
+        font-size: 16px;
+    }
+    #ctUs{
+        width: 130px;
+        height:40px;
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width:480px) and (max-width:1399px){
+    #first>.container>.row>.col-xl-6>img{
+        width:440px;
+        height:440px;
+    }
+    #first>.container{
+        padding-top: 150px;
+    }
+    #first{
+        height:850px;
+    }
+}
