@@ -29,8 +29,7 @@ class OrderController extends Controller
         $orders = Order::with('customer')
                         ->orderBy('id','desc')
                         ->paginate('10');
-        $order_0 = Order::where('state',0)->get()->count();
-        return view('order.index',compact('orders','order_0'));
+        return view('order.index',compact('orders'));
     }
 
     public function cart()

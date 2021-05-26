@@ -2,9 +2,6 @@
 @section('asdf')
 <meta http-equiv="refresh" content="100" />
 @endsection
-@section('badge')
-<span class="badge bg-info">{{$order_0}}</span>
-@endsection
 @section('title')
 <span class="name">Welcome from Dashboard , {{Auth::user()->name}}</span>
 @endsection

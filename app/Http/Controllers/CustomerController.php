@@ -22,8 +22,7 @@ class CustomerController extends Controller
     public function index()
     {
         $customers = Customer::paginate(5);
-        $order_0 = Order::where('state',0)->get()->count();
-        return view('customer.index',compact('customers','order_0'));
+        return view('customer.index',compact('customers'));
     }
 
     /**

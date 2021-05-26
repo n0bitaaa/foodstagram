@@ -21,7 +21,7 @@ class CreateOrdersTable extends Migration
             $table->double('totl_amt');
             $table->integer('state');
             $table->unsignedBigInteger('customer_id');
-            $table->integer('user_id')->nullable();
+            $table->unsignedBigInteger('user_id')->nullable();
             $table->timestamps();
 
             $table->foreign('customer_id')->references('id')->on('customers');

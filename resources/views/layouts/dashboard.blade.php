@@ -82,7 +82,7 @@
             <li class="nav-item">
               <a href="{{ route('orders.index') }}" class="nav-link">
                 <i class="fas fa-clipboard-list nav-icon"></i>
-                <p>Order</p>&nbsp;&nbsp;@yield('badge')
+                <p>Order</p>&nbsp;&nbsp;<span class="badge bg-info">{{App\Order::where('state',0)->get()->count()}}</span>
               </a>
             </li>
             <!-- <li class="nav-item">

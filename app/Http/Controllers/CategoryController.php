@@ -21,8 +21,7 @@ class CategoryController extends Controller
      public function index()
     {
         $categories = Category::with('user')->paginate(10);
-        $order_0 = Order::where('state',0)->get()->count();
-        return view('category.index',compact('categories','order_0'));
+        return view('category.index',compact('categories'));
     }
 
     /**

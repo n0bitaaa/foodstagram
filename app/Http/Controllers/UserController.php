@@ -24,8 +24,7 @@ class UserController extends Controller
     public function index(Request $request)
     {
         $users = User::paginate(10);
-        $order_0 = Order::where('state',0)->get()->count();
-        return view('user.index',compact('users','order_0'));
+        return view('user.index',compact('users'));
     }
 
     /**

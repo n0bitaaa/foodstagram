@@ -16,10 +16,10 @@
             <a class="nav-link rounded-pill px-4" href="{{ url('/orders') }}">Orders</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link rounded-pill px-4" href="#">About</a>
+            <a class="nav-link rounded-pill px-4" href="{{ url('/about') }}">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link rounded-pill px-4" href="#">Contact</a>
+            <a class="nav-link rounded-pill px-4" href="{{ url('/contact') }}">Contact</a>
         </li>
       </ul>
 

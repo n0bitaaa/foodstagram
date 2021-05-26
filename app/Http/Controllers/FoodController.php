@@ -23,7 +23,7 @@ class FoodController extends Controller
     {
         $foods = Food::with('category')->paginate(10);
         $order_0 = Order::where('state',0)->get()->count();
-        return view('food.index',compact('foods','order_0'));
+        return view('food.index',compact('foods'));
     }
 
     public function allFood()

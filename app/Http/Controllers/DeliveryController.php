@@ -25,8 +25,7 @@ class DeliveryController extends Controller
                             ->orderBy('id','desc')
                             ->paginate(10);
         $orders = Order::with('customer')->get();
-        $order_0 = Order::where('state',0)->get()->count();
-        return view('delivery.index',compact('deliveries','orders','order_0'));
+        return view('delivery.index',compact('deliveries','orders'));
     }
 
     /**

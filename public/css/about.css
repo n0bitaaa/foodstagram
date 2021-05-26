@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Milonga&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Itim&family=Montserrat:wght@300&display=swap');
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.ab-first{
+    background-color: #183D5D;
+    width: 100%;
+    height: 600px;
+}
+.ab-pic{
+    width: 50%;
+}
+
+.about{
+    width: 50%;
+
+}
+.ab-pic img{
+    width: 430px;
+    height: 300px;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 46%; 
+}
+.about h1{
+    color: white;
+    font-size: 35px;
+    font-family:'Roberto';
+    position: absolute ;
+    left: 10%;
+    top: 30%;
+    font-style: italic;
+    font-weight: bold;
+}
+.about p{
+    font-size: 16px;
+    font-family: 'montserrat';
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    line-height: 35px;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 767px){
+    .ab-first{
+        width: 100%;
+    }
+    .ab-pic img{
+        width: 280px;
+        height: 200px;
+        position: absolute;
+        margin-top: 12%;
+        margin-left: 16%; 
+     }  
+     .about h1{
+       font-size: 25px;
+        position: absolute ;
+        left: 10%;
+        top: 50%;
+    }
+    .about p{
+        font-size: 15px;
+        font-family: 'montserrat';
+        position: absolute;
+        left: 10%;
+        top: 62%;
+        line-height: 35px;
+        color: whitesmoke;
+        text-align: center;
+    }
+}
+
+.ab-sec{
+    width: 100%;
+    height: 650px;
+    background-color: #072540;
+}
+
+.our-story h1{
+    color: white;
+    font-size: 35px;
+    font-family:'Roberto';
+    font-style: italic;
+    font-weight: bold;
+}  
+.our-story p{
+    font-size: 16px;
+    font-family: 'montserrat';
+    line-height: 35px;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 35px;
+}
+.eat{
+    width:400px;
+    height:400px;
+}
+.eat img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.spe-even{
+    width: 350px;
+    height: 300px;
+}
+.spe-even img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+@media screen and  (max-width: 767px){
+    .ab-sec{
+        width: 100%;
+    }
+    .our-story h1{
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    .our-story p{
+        width: 80%;
+        font-size: 15px;
+        margin-top: 40px;
+        text-align: left;
+    }
+    .eat img{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        margin-top: 300px;
+    }
+    .spe-even img{
+        width: 230px;
+        height: 230px;
+        position: absolute;
+        top: 160%;
+    }
+}
+
+/*  */
+.ab-third{
+    width: 100%;
+    height:700px;
+    background-color: #183D5D;
+}
+.ab-third .col-6{
+    margin-top: 200px;
+}
+.o-u{
+    width: 50%;
+}
+.o-u h1{
+    color: white;
+    font-size: 35px;
+    font-family:'Roberto';
+    font-weight: bold;
+}
+.o-u p{
+    font-size: 16px;
+    font-family: 'montserrat';
+    line-height: 35px;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 35px;
+    text-align: left;
+}
+.pic-1 img{
+    width: 200px;
+    height: 350px;
+}
+.pic-2 img{
+    width: 220px;
+    height: 350px;
+}
+@media screen and (max-width: 767px){
+    .ab-third{
+        width: 100%;
+    }
+    .o-u h1{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .o-u p{
+        font-size: 14px;
+        width: 40%;
+        line-height: 30px;
+        text-align: left;
+    }
+    .pic-1 img{
+        width: 130px;
+        height: 230px;
+        position: relative;
+        margin-top: 100px;
+    }
+    .pic-2 img{
+        width: 130px;
+        height: 230px;
+        position: absolute;
+        margin-left: 30px;
+        margin-top: 140px;
+    }
+}

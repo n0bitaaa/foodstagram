@@ -9,6 +9,7 @@
     <script src="{{asset('https://kit.fontawesome.com/1e9d4689e4.js')}}" crossorigin="anonymous"></script>
     <link href="{{asset('https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('https://unpkg.com/aos@2.3.1/dist/aos.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="{{asset('css/navbar.css')}}">
     <!-- <link rel="stylesheet" href="{{asset('css/asdf.css')}}"> -->
     @yield('css')

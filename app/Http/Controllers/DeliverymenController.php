@@ -20,8 +20,7 @@ class DeliverymenController extends Controller
     {   
         $deliveries = Delivery::all();
         $deliverymens=Delivery_men::with('user')->paginate(5);
-        $order_0 = Order::where('state',0)->get()->count();
-        return view('deliverymen.index',compact('deliverymens','deliveries','order_0'));
+        return view('deliverymen.index',compact('deliverymens','deliveries'));
     }
 
     /**

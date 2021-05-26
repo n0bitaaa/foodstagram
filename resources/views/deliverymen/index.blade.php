@@ -2,9 +2,6 @@
 @section('asdf')
 <meta http-equiv="refresh" content="708" />
 @endsection
-@section('badge')
-<span class="badge bg-info">{{$order_0}}</span>
-@endsection
 @section('title')
     Deliverymen
 @endsection

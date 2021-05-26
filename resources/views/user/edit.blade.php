@@ -35,8 +35,8 @@
             @enderror
         </div>
         <div class="form-group">
-            <label for="image">Choose your food image</label>
-            <input type="file" name="image" class="form-control-file" id="image" aria-describedby="imageHelp" value="{{ $user->image }}">
+            <label for="image">Choose your image</label>
+            <input type="file" name="image" class="form-control" id="image" aria-describedby="imageHelp" value="{{ $user->image }}">
             @error('image')
                 <small id="imageHelp" class="form-text text-danger">{{ $message }}</small>
             @enderror

@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 // });
 // Route::get('/homee','HomeController@index');
 Route::group(['prefix'=>'admin'],function(){
-    Auth::routes(['verify'=>true,'register'=>false]);
+    Auth::routes(['verify'=>true,'register'=>true]);
 });
 
 Route::group(['middleware' => 'auth','prefix'=>'admin'],function(){
@@ -84,6 +84,10 @@ Route::view('/','frontend.index')->name('asdf');
 Route::get('/shop/filter','FoodController@sortCategory');
 
 Route::get('/shop','FoodController@allFood')->name('shop');
+
+Route::view('/about','frontend.about');
+
+Route::view('/contact','frontend.contact');
 
 Route::group(['middleware' => ['auth:customer','verified']],function(){
     Route::get('/cart','OrderController@cart');

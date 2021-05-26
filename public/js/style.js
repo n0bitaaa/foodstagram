@@ -18,7 +18,7 @@ $(document).ready(function(){
   $("#add_row").click(function(e){
     e.preventDefault();
     let new_row_number = row_number - 1;
-    $('#food' + row_number).html($('#food' + new_row_number).html()).find('td:first-child');
+    $('#food' + row_number).html($('#food' + new_row_number).html());
     $('#foods_table').append('<tr id="food' + (row_number + 1) + '"></tr>');
     row_number++;
   });

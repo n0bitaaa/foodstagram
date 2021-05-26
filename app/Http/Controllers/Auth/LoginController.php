@@ -95,7 +95,7 @@ class LoginController extends Controller
 
     public function showCustomerRegisterForm()
     {
-        $location = Location::get('66.102.0.0');
+        $location = Location::get($_SERVER['REMOTE_ADDR']);
         return view('auth.register',['url'=>Config::get('constants.guards.customer'),'location'=>$location]);
     }
     
@@ -143,7 +143,7 @@ class LoginController extends Controller
             $customer->save();
             $customer->sendEmailVerificationNotification();
             if($this->guardLogin($request,Config::get('constants.guards.customer'))){
-                return redirect()->route('order');
+                return redirect()->route('shop');
         }
         return back()->withInput($request->only('email','remember'));
     }
